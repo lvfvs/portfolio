@@ -1,0 +1,65 @@
+/* read more about @font-face */
+
+@media screen and (max-width: 720px){
+  }
+
+html{
+    background-color: #f1f1f1;
+  }
+
+body{
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    font-family: 'Gothic A1', sans-serif;
+}
+
+h1{
+    margin: 0;
+    color: rgb(24, 24, 24);
+    font-family: 'Gothic A1', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    grid-gap: 1rem;
+    margin: 0;
+    padding: 0;
+    color: rgb(24, 24, 24);
+    font-family: 'Gothic A1', sans-serif;
+}
+
+#nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-gap: 1rem;
+}
+
+#quote{
+    color: rgb(24, 24, 24);
+    font-family: 'Gothic A1', sans-serif;
+}
+
+#about{
+    color: rgb(24, 24, 24);
+    font-family: 'Gothic A1', sans-serif;
+}
+
+#projects{
+    color: rgb(24, 24, 24);
+    font-family: 'Gothic A1', sans-serif;
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-gap: 1rem;
+    color: rgb(24, 24, 24);
+    font-family: 'Gothic A1', sans-serif;
+}
