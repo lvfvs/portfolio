@@ -68,10 +68,16 @@ ul {
   font-family: "Gothic A1", sans-serif;
 }
 
-.header {
+nav {
+  display: inline;
+  float: right;
+}
+
+header {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   grid-gap: 1rem;
+  float: left;
 }
 
 .quote {
