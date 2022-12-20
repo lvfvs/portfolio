@@ -17,12 +17,34 @@ a {
   text-decoration: none;
   color: rgb(24, 24, 24);
   font-family: "Gothic A1", sans-serif;
+  cursor: default;
 }
 
-a:hover span {
+a.about:hover:after {
   content: url(../assets/images/line_1.png);
+  display: flex;
+  flex-direction: column;
   position: sticky;
   z-index: -1;
+  height: 1em;
+}
+
+a.projects:hover:after {
+  content: url(../assets/images/line_2.png);
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  z-index: -1;
+  height: 1em;
+}
+
+a.contact:hover:after {
+  content: url(../assets/images/line_3.png);
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  z-index: -1;
+  height: 1em;
 }
 
 a:active {
