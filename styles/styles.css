@@ -5,11 +5,11 @@
 
 @font-face {
   font-family: sansNarrow;
-  src: url(assets/fonts/helvetica-narrow/helvetica-narrow.ttf);
+  src: url("../assets/fonts/helvetica-narrow/helvetica-narrow.ttf");
 }
 
 html {
-  background-color: #ebebeb;
+  background-color: #ffffff;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 a {
   text-decoration: none;
   color: rgb(24, 24, 24);
-  font-family: "Gothic A1", sans-serif;
+  font-family: "sansNarrow", Fallback, sans-serif;
   cursor: default;
 }
 
@@ -54,13 +54,13 @@ a.contact:hover:after {
 
 a:active {
   color: #c9c9c9;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "sansNarrow", Fallback, sans-serif;
 }
 
 h1 {
   margin: 0;
   color: rgb(24, 24, 24);
-  font-family: "Gothic A1", sans-serif;
+  font-family: "sansNarrow", Fallback, sans-serif;
 }
 
 .nav {
@@ -73,7 +73,7 @@ h1 {
   gap: 1rem;
   justify-content: flex-end;
   color: rgb(24, 24, 24);
-  font-family: "Gothic A1", sans-serif;
+  font-family: "sansNarrow", Fallback, sans-serif;
 }
 
 .nav > * {
@@ -89,17 +89,17 @@ header {
 
 .quote {
   color: rgb(24, 24, 24);
-  font-family: "Gothic A1", sans-serif;
+  font-family: "sansNarrow", Fallback, sans-serif;
 }
 
 .about {
   color: rgb(24, 24, 24);
-  font-family: "Gothic A1", sans-serif;
+  font-family: "sansNarrow", Fallback, sans-serif;
 }
 
 .projects {
   color: rgb(24, 24, 24);
-  font-family: "Gothic A1", sans-serif;
+  font-family: "sansNarrow", Fallback, sans-serif;
 }
 
 .contact {
@@ -107,5 +107,5 @@ header {
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   grid-gap: 1rem;
   color: rgb(24, 24, 24);
-  font-family: "Gothic A1", sans-serif;
+  font-family: "sansNarrow", Fallback, sans-serif;
 }
