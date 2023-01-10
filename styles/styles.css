@@ -1,0 +1,111 @@
+/* read more about @font-face */
+
+@media screen and (max-width: 720px) {
+}
+
+@font-face {
+  font-family: sansNarrow;
+  src: url(assets/fonts/helvetica-narrow/helvetica-narrow.ttf);
+}
+
+html {
+  background-color: #ebebeb;
+}
+
+body {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(24, 24, 24);
+  font-family: "Gothic A1", sans-serif;
+  cursor: default;
+}
+
+a.about:hover:after {
+  content: url(../assets/images/line_1.png);
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  z-index: -1;
+  height: 1em;
+}
+
+a.projects:hover:after {
+  content: url(../assets/images/line_2.png);
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  z-index: -1;
+  height: 1em;
+}
+
+a.contact:hover:after {
+  content: url(../assets/images/line_3.png);
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  z-index: -1;
+  height: 1em;
+}
+
+a:active {
+  color: #c9c9c9;
+  font-family: "Gothic A1", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  color: rgb(24, 24, 24);
+  font-family: "Gothic A1", sans-serif;
+}
+
+.nav {
+  display: flex;
+  grid-gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-end;
+  color: rgb(24, 24, 24);
+  font-family: "Gothic A1", sans-serif;
+}
+
+.nav > * {
+  flex: 1;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-gap: 1rem;
+  float: left;
+}
+
+.quote {
+  color: rgb(24, 24, 24);
+  font-family: "Gothic A1", sans-serif;
+}
+
+.about {
+  color: rgb(24, 24, 24);
+  font-family: "Gothic A1", sans-serif;
+}
+
+.projects {
+  color: rgb(24, 24, 24);
+  font-family: "Gothic A1", sans-serif;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-gap: 1rem;
+  color: rgb(24, 24, 24);
+  font-family: "Gothic A1", sans-serif;
+}
