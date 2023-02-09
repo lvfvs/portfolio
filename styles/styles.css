@@ -10,12 +10,14 @@
 
 html {
   background-color: #ffffff;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0 auto;
   height: 100%;
   width: 100%;
+  cursor: default;
 }
 
 a {
@@ -25,74 +27,65 @@ a {
   cursor: default;
 }
 
-a.about:hover:after {
-  content: url(../assets/images/line_1.png);
-  display: flex;
-  flex-direction: column;
-  position: sticky;
-  z-index: -1;
-  height: 1em;
-}
-
-a.projects:hover:after {
-  content: url(../assets/images/line_2.png);
-  display: flex;
-  flex-direction: column;
-  position: sticky;
-  z-index: -1;
-  height: 1em;
-}
-
-a.contact:hover:after {
-  content: url(../assets/images/line_3.png);
-  display: flex;
-  flex-direction: column;
-  position: sticky;
-  z-index: -1;
-  height: 1em;
-}
-
 a:active {
-  color: #c9c9c9;
   font-family: "sansNarrow", Fallback, sans-serif;
+  text-decoration: underline;
+}
+
+a:hover {
+  font-family: "sansNarrow", Fallback, sans-serif;
+  text-decoration: underline;
 }
 
 h1 {
-  margin: 0;
   color: rgb(24, 24, 24);
   font-family: "sansNarrow", Fallback, sans-serif;
-}
-
-.nav {
-  display: flex;
-  grid-gap: 1rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: flex-end;
-  color: rgb(24, 24, 24);
-  font-family: "sansNarrow", Fallback, sans-serif;
-}
-
-.nav > * {
-  flex: 1;
+  font-size: 48px;
 }
 
 header {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-  grid-gap: 1rem;
-  float: left;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  margin-left: 45px;
 }
 
-.quote {
+.title {
+  margin-right: auto;
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav li a {
   color: rgb(24, 24, 24);
   font-family: "sansNarrow", Fallback, sans-serif;
+  font-size: 48px;
 }
 
-.about {
+.nav li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.quote-container {
+  color: rgb(24, 24, 24);
+  font-family: "sansNarrow", Fallback, sans-serif;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+}
+
+.about p {
   color: rgb(24, 24, 24);
   font-family: "sansNarrow", Fallback, sans-serif;
 }
