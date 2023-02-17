@@ -1,1 +1,1 @@
-This is my personal portfolio website, which is currently written in HTML, CSS, and vanilla JS. I have the intention to rewrite it in React at some point.
+a website for ME
